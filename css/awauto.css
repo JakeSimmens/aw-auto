@@ -1,0 +1,64 @@
+body {
+    background: #fdfcfc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    margin: 0;
+    max-width: 1300px;
+    font-family: 
+}
+
+#title{
+    width: 48%;
+    height: 650px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 150px;
+    float: left;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    /* color: #bf0000; color from AW site*/
+    
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#title {
+    font-size: 1.3rem;
+}
+
+#title ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+
+#mainImage {
+    background-image: url("../img/blueMotor.jpg");
+    background-size: cover;
+    background-position-x: 60%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* border: 1px solid red; */
+    width: 48%;
+    height: 750px;
+    object-fit: contain;
+    
+}
+
+#contactInfo {
+    float: left;
+    width: 100%;
+}
+
+#values {
+    float: left;
+    width: 100%;
+}
