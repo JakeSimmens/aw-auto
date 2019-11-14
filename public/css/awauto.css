@@ -5,77 +5,103 @@ body {
     color: black;
     margin: 0;
     max-width: 1300px;
-    font-family: 
+    /* font-family:  */
 }
 
-/* .box {
+.row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-} */
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
 
-.infoText{
-    width: 48%;
-    height: 650px;
-    margin-right: 1%;
-    margin-left: 1%;
-    padding-top: 100px;
-    float: left;
-    /* border: 1px solid blue; */
+.column {
+    /* displays boxes side by side */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+}
+
+@media (max-width: 992px) {
+    .row {
+        /* puts screen into a single column */
+        display: block;
+        
+    }
+    .column {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+
+}
+/* order sections */
+#titleText {
+    order: 1;
+}
+
+#titleImage {
+    order: 2;
+}
+
+#hoursImage {
+    order: 3;
+}
+
+#hours {
+    order: 4;
+}
+
+
+#titleText{
+
     text-align: center;
     font-size: 1.3rem;
 }
 
-h1{
-    font-size: 4rem;
-    /* color: #bf0000; color from AW site*/
-    
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-.infoText ul {
+#titleText ul {
     list-style-type: none;
     line-height: 25px;
     margin: 0;
     padding: 0;
 }
 
+h1{
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+
+
 /* 992 px break point */
 
-#mainImage {
+#titleImage {
     background-image: url("../img/blueMotor.jpg");
     background-size: cover;
     background-position-x: 60%;
-    float: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 48%;
-    height: 750px;
-    object-fit: contain;
-    
+    height: 600px;
+ 
 }
 
-#image2 {
+#hoursImage {
     background-image: url("../img/HuigensFamily.jpg");
     background-size: cover;
     background-position-x: 60%;
-    float: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 48%;
-    height: 750px;
-    object-fit: contain;
+    height: 600px;
 
 }
 
-#contactInfo {
-    float: left;
-    width: 48%;
+#hours {
+    
 }
 
 #values {
-    float: left;
-    width: 100%;
+
 }
