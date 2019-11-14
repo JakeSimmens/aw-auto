@@ -1,0 +1,15 @@
+{
+  "name": "awautomotive",
+  "version": "1.0.0",
+  "description": "A and W webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Simmens",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.2",
+    "express": "^4.17.1"
+  }
+}
