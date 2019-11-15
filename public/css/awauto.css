@@ -5,7 +5,22 @@ body {
     color: black;
     margin: 0;
     max-width: 1300px;
-    /* font-family:  */
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald';
+    font-weight: 700;
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 .row {
@@ -15,6 +30,7 @@ body {
     width: 100%;
     margin-bottom: 5px;
     padding-bottom: 2px;
+    align-items: center;
 }
 
 .column {
@@ -23,6 +39,7 @@ body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    
 
 }
 
@@ -35,10 +52,13 @@ body {
     .column {
         display: flex;
         margin-bottom: 50px;
+        justify-content: center;
     }
 
 
+
 }
+/* -------------------- */
 /* order sections */
 #titleText {
     order: 1;
@@ -55,28 +75,27 @@ body {
 #hours {
     order: 4;
 }
+/* -------------------- */
 
-
-#titleText{
+.titleText{
 
     text-align: center;
     font-size: 1.3rem;
 }
 
-#titleText ul {
+.titleText ul {
     list-style-type: none;
     line-height: 25px;
     margin: 0;
     padding: 0;
 }
 
-h1{
-    font-size: 4rem;
+#phone {
+    line-height: 60px;
+    color: red;
 }
 
-h3 {
-    font-size: 2rem;
-}
+
 
 
 
@@ -102,6 +121,18 @@ h3 {
     
 }
 
-#values {
+.values {
+    margin: 20px;
+    /* border: 2px solid black; */
+    background:#80808014;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 175px;
+    justify-content: start;
+    max-width: 300px;
+    
+}
 
+h4 {
+    padding: 0;
 }
