@@ -1,76 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/awauto.css">
-    <title>Auto Repair, Tires - A & W Automotive - New Prague, MN</title>
-</head>
-<body>
-    <div>
-        <section class="row">
-            <div  class="column">
-                <div id="title" class="titleText">
-                    <h1>A & W Automotive</h1>
-                    <h3>Where Quality Counts</h3>
-                    <p>Proudly serving New Prague and the surrounding areas!</p>
-                    <ul>
-                        <li id="phone"><a href="tel:9527587764">952-758-7764</a> </li>
-                        <li>698 15th St. SW</li>
-                        <li>New Prague, MN 56071</li>
-                    </ul>
+<% include partials/header %>
+
+<div class="container-fluid mx-0 p-0">
+    <section class="row align-items-center no-gutters">
+        <div  class="col-lg-6 py-5">
+            <div id="title" class="titleText">
+                <h1 class="display-2">A & W Automotive</h1>
+                <h3 class="h2">Where Quality Counts</h3>
+                <p>Proudly serving New Prague and the surrounding areas!</p>
+                <ul>
+                    <li id="phone"><a href="tel:9527587764">952-758-7764</a> </li>
+                    <li>698 15th St. SW</li>
+                    <li>New Prague, MN 56071</li>
+                </ul>
+            </div>
+        </div>
+
+        <div  class="col-lg-6">
+            <div id="titleImage"></div>
+        </div>
+    </section>        
+
+    <!-- HOURS and 2nd image -->
+    <section class="row no-gutters align-items-center">
+
+        <div class="col-lg-6 order-1 order-lg-2 py-5">
+            <div id="hours" class="titleText">
+                
+                <h3 class="h2">Hours</h3>
+                <ul>
+                    <li>Monday - Friday</li>
+                    <li>7:30 AM - 5:00 PM</li>
+                    <li>Saturday by appointment only</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-6 order-2 order-lg-1">
+                <div id="hoursImage"></div>
+        </div>
+
+
+    </section> 
+
+    <!-- VALUES -->
+    <section class="row mx-3">
+            
+            <div class="col-sm-6 col-lg-4 mt-5">
+                
+                <div class="card">
+                    <h4 class="card-header">Value</h4>
+                    <p class="card-text px-4 values">Best quality technicians that take pride in their workmanship and doing the job right the first time.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <h4 class="card-header">Service</h4>
+                    <p class="card-text px-4 values">Come to us for a variety of auto repair services in New Prague and speak directly with the technician that will be working with your vehicle.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <h4 class="card-header">Integrity</h4>
+                    <p class="card-text px-4 values">Customer relationships are the highest priority which we strive for through honesty and quality work.</p>
                 </div>
             </div>
 
-            <div  class="column">
-                <div id="titleImage"></div>
-            </div>
-        </section>        
+        
+    </section>
+</div>
 
-        <section class="row">
-
-                <div class="column">
-                        <div id="hoursImage"></div>
-                </div>
-
-            <div class="column">
-                <div id="hours" class="titleText">
-                    
-                    <h3>Hours</h3>
-                    <ul>
-                        <li>Monday - Friday</li>
-                        <li>7:30 AM - 5:00 PM</li>
-                        <li>Saturday by appointment only</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-        </section> 
-
-        <section class="row">
-                <div class="column">
-                    <div class="values">
-                        <h4>Value</h4>
-                        <p>Best quality technicians that take pride in their workmanship and doing the job right the first time.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="values">
-                        <h4>Service</h4>
-                        <p>Come to us for a variety of auto repair services in New Prague and speak directly with the technician that will be working with your vehicle.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="values">
-                        <h4>Integrity</h4>
-                        <p>Customer relationships are the highest priority which we strive for through honesty and quality work.</p>
-                    </div>
-                </div>
-        </section>
-    </div>
-</body>
-</html>
+<% include partials/footer %>

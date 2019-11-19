@@ -15,72 +15,11 @@ h1, h2, h3, h4 {
 
 }
 
-h1{
-    font-size: 4rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 5px;
-    padding-bottom: 2px;
-    align-items: center;
-}
-
-.column {
-    /* displays boxes side by side */
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    
-
-}
-
-@media (max-width: 992px) {
-    .row {
-        /* puts screen into a single column */
-        display: block;
-        
-    }
-    .column {
-        display: flex;
-        margin-bottom: 50px;
-        justify-content: center;
-    
-    }
-
-
-}
-/* -------------------- */
-/* order sections */
-#title {
-    order: 1;
-}
-
-#titleImage {
-    order: 2;
-}
-
-#hoursImage {
-    order: 3;
-}
-
-#hours {
-    order: 4;
-}
-/* -------------------- */
-
 .titleText{
 
     text-align: center;
     font-size: 1.3rem;
+    /* height: 400px; */
 }
 
 .titleText ul {
@@ -95,11 +34,6 @@ h3 {
     color: red;
 }
 
-
-
-
-
-/* 992 px break point */
 
 #titleImage {
     background-image: url("../img/blueMotor.jpg");
@@ -117,25 +51,22 @@ h3 {
 
 }
 
-#hours {
-    
-}
-
 .values {
     /* border: 2px solid black; */
+    height: 150px;
     background:#80808014;
-    padding-left: 20px;
+    /* padding-left: 20px;
     padding-right: 20px;
     height: 175px;
-    justify-content: start;
-    max-width: 300px;
+    justify-content: start; */
+    /* max-width: 300px; */
     /* centers on smaller screen */
-    margin: 30px auto; 
+    /* margin: 30px auto;  */
 
  
     
 }
 
 h4 {
-    padding: 0;
+    /* padding: 0; */
 }
