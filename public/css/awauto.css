@@ -19,7 +19,6 @@ h1, h2, h3, h4 {
 
     text-align: center;
     font-size: 1.3rem;
-    /* height: 400px; */
 }
 
 .titleText ul {
@@ -29,7 +28,7 @@ h1, h2, h3, h4 {
     padding: 0;
 }
 
-#phone {
+.phone {
     line-height: 60px;
     color: red;
 }
@@ -52,21 +51,25 @@ h1, h2, h3, h4 {
 }
 
 .values {
-    /* border: 2px solid black; */
+ 
     height: 150px;
     background:#80808014;
-    /* padding-left: 20px;
-    padding-right: 20px;
-    height: 175px;
-    justify-content: start; */
-    /* max-width: 300px; */
-    /* centers on smaller screen */
-    /* margin: 30px auto;  */
-
- 
-    
 }
 
-h4 {
-    /* padding: 0; */
+/* ABOUT PAGE */
+
+#aboutImage {
+    background-image: url("../img/AllanHelper.jpg");    background-size: cover;
+    background-position-y: 50%;
+    height: 600px;
+}
+
+#aboutImage2 {
+    background-image: url("../img/AllanEngineWork.jpg");    background-size: cover;
+    background-position-y: 60%;
+    height: 600px;
+}
+
+.aboutText {
+    
 }
