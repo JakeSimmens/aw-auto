@@ -1,0 +1,55 @@
+<% include partials/header %>
+
+<h1 class="text-center py-2">Contact</h1>
+<div class= "container">
+    <div class="row align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1 mt-5">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number*</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="xxx-xxx-xxxx">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input ml-4" id="emailCheckbox">
+                    <label class="form-check-label pt-0 pb-3 ml-5" for="emailCheckbox">Click here to receive email updates</label>
+                </div>
+                <div class="form-group">
+                    <label for="make">Vehicle Make*</label>
+                    <input type="text" class="form-control" id="make" placeholder="Chevy, Ford, Honda, ...">
+                </div>
+                <div class="form-group">
+                    <label for="model">Vehicle Model*</label>
+                    <input type="text" class="form-control" id="model" placeholder="Impala, Camero, Suburban, ...">
+                </div>
+                <div class="form-group">
+                    <label for="year">Vehicle Year*</label>
+                    <input type="text" class="form-control" id="year" placeholder="Year">
+                </div>
+                <div class="form-group">
+                    <label for="inquiry">Inquiry*</label>
+                    <textarea type="text" class="form-control" id="inquiry" rows="5" placeholder="How may we serve you?"></textarea>
+                </div>
+                <p>* Required fields</p>
+
+            </form>
+        </div>
+
+        <div class="col-lg-6 order-1 order-lg-2 my-5">
+                <ul class="contact text-center h4">
+                    <li class="phone">Call: <a href="tel:9527587764">952-758-7764</a> </li>
+                    <li>698 15th St. SW</li>
+                    <li>New Prague, MN 56071</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
