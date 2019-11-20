@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     color: black;
     margin: 0;
+    padding-top: 50px;
     max-width: 1300px;
     font-family: 'Roboto', sans-serif;
     
@@ -72,4 +73,20 @@ h1, h2, h3, h4 {
 
 .aboutText {
     
+}
+
+/* Services page */
+
+#servicesImage {
+    background-image: url("../img/AllanHelper.jpg");    background-size: cover;
+    background-position-y: 50%;
+    height: 400px;
+}
+
+.footer {
+    /* background: rgb(38, 38, 38); */
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+
 }
