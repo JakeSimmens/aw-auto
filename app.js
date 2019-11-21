@@ -4,20 +4,26 @@ app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+//Pass in url variable to allow navbar to update the active page
+
 app.get("/", (req, res) => {
-    res.render("home");
+    var url = req.url;
+    res.render("home", {url: url});
 });
 
 app.get("/about", (req, res) => {
-    res.render("about");
+    var url = req.url;
+    res.render("about", {url: url});
 });
 
 app.get("/services", (req, res) => {
-    res.render("services");
+    var url = req.url;
+    res.render("services", {url: url});
 });
 
 app.get("/contact", (req, res) => {
-    res.render("contact");
+    var url = req.url;
+    res.render("contact", {url: url});
 });
 
 app.listen(3000, () => {
