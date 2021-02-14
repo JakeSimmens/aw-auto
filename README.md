@@ -1,16 +1,6 @@
-#A&W Automotive
-
-A static website put together for a local auto repair shop using HTML, CSS, and Bootstrap 4.
-
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">A&W Automotive</h3>
+  <h1 align="center">A&W Automotive</h1>
 
 </p>
 
