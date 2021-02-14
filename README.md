@@ -36,7 +36,7 @@ A static website put together for a local auto repair shop using HTML, CSS, and 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="./public/img/AWAuto.jpg">
 
 This website was put together for a local auto repair shop.  The basic project was taking the customer's current static webpage and giving it a rework and face lift.  Two seperate web pages were created.  The first focused on using flexbox and the second go around implemented Bootstrap 4.  The Bootstrap project was able to give the site a little bit more of a shine.
 
