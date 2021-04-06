@@ -55,7 +55,7 @@ h2, h3, h4 {
 #hoursImage {
     background-image: url("../img/HuigensFamily.jpg");
     background-size: cover;
-    background-position-x: 60%;
+    background-position-x: 50%;
     height: 600px;
 
 }
